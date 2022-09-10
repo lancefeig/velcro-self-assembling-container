@@ -1,0 +1,26 @@
+"Acrylic Thickness"= 0.284in
+
+"Base Length"= 7.896in
+
+"Base Width"= 6.3919999999999995in
+
+"Side Height"= 3.282in
+
+"Lid Long Side Outer Cutout"= 1.5792in
+
+"Lid Long Side Overhang"= 1.5792in
+
+"Lid Long Side Inner Cutout"= 0.7896in
+
+"Short Side Width"= 5.824in
+
+"Short Side Finger Hole"= 1.109in
+
+"Lid Short Side Outer Cutout"= 0.728in
+
+"Lid Short Side Outer Overhang"= 0.728in
+
+"Lid Short Side Middle Cutout"= 0.728in
+
+"Lid Short Side Middle Overhang"= 0.728in
+
