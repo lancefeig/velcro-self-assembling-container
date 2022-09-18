@@ -34,7 +34,7 @@ class Interface(tk.Tk):
         ttk.Label(self,text="Maximum Height (in.) : ",anchor="w").grid(row=4,column=0,sticky="nsew",padx=3,pady=3)
         ttk.Label(self,text="Longitudinal Buffer (Per Side) (in.) : ",anchor="w").grid(row=1,column=2,sticky="nsew",padx=3,pady=3)
         ttk.Label(self,text="Lateral Buffer (Per Side) (in.) : ",anchor="w").grid(row=2,column=2,sticky="nsew",padx=3,pady=3)
-        ttk.Label(self,text="Vertical Bufer (Top Only) (in.) : ",anchor="w").grid(row=3,column=2,sticky="nsew",padx=3,pady=3)
+        ttk.Label(self,text="Vertical Buffer (Top Only) (in.) : ",anchor="w").grid(row=3,column=2,sticky="nsew",padx=3,pady=3)
         ttk.Label(self,text="Layout Spacing (in.) : ",anchor="w").grid(row=4,column=2,sticky="nsew",padx=3,pady=3)
 
         #Places the dimension entry widgets
