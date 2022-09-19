@@ -1,8 +1,8 @@
 # Self-Assembling Container
-Self-Assembling Container is a Python script that calculates and edits dimensions in SolidWorks files to create containers for Testing Lab equipment at Velcro Research & Development.
+Self-Assembling Container is a Python script that calculates and edits dimensions in SolidWorks files to create containers for testing lab equipment at Velcro Research & Development.
 
 ## Background
-During my Summer 2022 internship at Velcro in Manchester, New Hampshire, one of my projects was to design storage containers for different equipment in the R&D Testing Lab.
+During my Summer 2022 internship at Velcro in Manchester, New Hampshire, one of my projects was to design storage containers for different equipment in the R&D testing lab.
 
 Each fixture was a combination of heavy, weirdly shaped, super tiny, or prone to falling over. I designed unique containers to house each fixture from scratch. Container pieces (sides, base, and lid) were fashioned from acrylic sheets, which I cut using the in-house CO~2~ laser cutter. 
 
