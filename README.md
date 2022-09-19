@@ -10,9 +10,12 @@ All 11 containers were fully modeled in SolidWorks, including 3D printed pieces 
 
 Every container design shares the same basic parts: two short walls, two longer walls, a base, and a lid. In addition, all container designs required a 2D part layout for laser cutting.
 
-| Fig. 1 -- SolidWorks container assembly.| Fig. 2 -- SolidWorks acrylic laser cutting layout. |
-| :--- | :--- |
-| ![mainassembly](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/mainassembly.PNG?raw=true) | ![mainlayout](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/mainlayout.PNG?raw=true) |
+**Fig. 1 -- SolidWorks container assembly.**
+![mainassembly](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/mainassembly.PNG?raw=true)
+
+**Fig. 2 -- SolidWorks acrylic laser cutting layout.**
+![mainlayout](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/mainlayout.PNG?raw=true)
+
 The main difference between fixture container designs is the dimensions of the SolidWorks parts since the assemblies generally contain six components mated in the exact same manner.
 
 Within each container assembly, the measurements are repeated multiple times in different parts (e.g., the length of the base is also the length of the long side and the lid; the height of the short side is also the height of the long side).
