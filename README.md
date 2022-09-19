@@ -10,10 +10,10 @@ All 11 containers were fully modeled in SolidWorks, including 3D printed pieces 
 
 Every container design shares the same basic parts: two short walls, two longer walls, a base, and a lid. In addition, all container designs required a 2D part layout for laser cutting.
 
-### Fig. 1. SolidWorks container assembly.
+#### Fig. 1. SolidWorks container assembly.
 ![mainassembly](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/mainassembly.PNG?raw=true)
 
-### Fig. 2. SolidWorks acrylic laser cutting layout.
+#### Fig. 2. SolidWorks acrylic laser cutting layout.
 ![mainlayout](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/mainlayout.PNG?raw=true)
 
 The main difference between fixture container designs is the dimensions of the SolidWorks parts since the assemblies generally contain six components mated in the exact same manner.
@@ -39,13 +39,13 @@ The *Layout Spacing* corresponds to the distance between the parts in the acryli
 
 The *Optional Custom Instance Prefix* corresponds to a custom prefix, in front of the time stamp, for the generated instance folder.
 
-### Fig. 3. The interface after initializing.
+#### Fig. 3. The interface after initializing.
 ![interface1](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/interface1.jpg?raw=true)
 
-### Fig. 4. An instance is successfully generated.
+#### Fig. 4. An instance is successfully generated.
 ![interface4.jpg](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/interface4.jpg?raw=true)
 
-### Fig. 5. A diagram noting the spatial representation of six variables.
+#### Fig. 5. A diagram noting the spatial representation of six variables.
 ![inputvisual.png](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/inputvisual.png?raw=true) 
 
 Once the *Submit* button on the interface is clicked, the numerical data is processed by an algorithm to calculate the custom container dimensions.
