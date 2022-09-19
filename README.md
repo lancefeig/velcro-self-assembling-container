@@ -4,7 +4,7 @@ Self-Assembling Container is a Python script that calculates and edits dimension
 ## Background
 During my Summer 2022 internship at Velcro in Manchester, New Hampshire, one of my projects was to design storage containers for different equipment in the R&D Testing Lab.
 
-Each fixture was a combination of heavy, weirdly shaped, super tiny, or prone to falling over, so I had to design unique containers to house each fixture from scratch. Container pieces (sides, base, and lid) were fashioned from acrylic sheets, which I cut using the in-house CO~2~ laser cutter. 
+Each fixture was a combination of heavy, weirdly shaped, super tiny, or prone to falling over. I designed unique containers to house each fixture from scratch. Container pieces (sides, base, and lid) were fashioned from acrylic sheets, which I cut using the in-house CO~2~ laser cutter. 
 
 All 11 containers were fully modeled in SolidWorks, including 3D printed pieces and necessary hardware. (Renderings can be viewed [here](https://lancefeig.github.io/#velcro-summer-2022---solidworks-renderings-for-testing-lab-fixture-containers).)
 
@@ -22,7 +22,7 @@ Within each container assembly, the measurements are repeated multiple times in 
 
 To calculate the dimensions for each container, I repeatedly performed the same computations (e.g., the width of the short side is always the base length minus twice the width of the acrylic; the height of the sides is always the maximum height of the fixture, plus a gap, plus the thickness of the acrylic to account for the interlocking lid).
 
-Thus, I developed a Python script to remove the monotonous calculations and dimension editing from the container design process. Furthermore, the script enables my coworkers to speedily design new containers for new equipment after the conclusion of my internship.
+Thus, I developed a Python script to remove the monotonous calculating and dimension editing from the container design process. Furthermore, the script enables my coworkers to speedily design new containers for new equipment after the conclusion of my internship.
 
 ## Functionality
 The user is prompted to enter information specific to a certain fixture through a Tkinter GUI.
@@ -80,4 +80,4 @@ Finally, the Shutil module is used to copy the edited template folder into a new
 Download the provided `PackedSelfAssemblingContainer.zip` in the repository and extract all files to a chosen folder. Ensure all three files (`SolidWorks Parts & Assemblies`, `Instance Saves`, and `SelfAssemblingContainer.py`) are kept in the same directory, otherwise, the program will be unable to locate them. Run the Python file when ready.
 
 ## Notes
-The way SolidWorks behaves, assemblies link to external equation files by remembering their file location. Once generated, the instance assembly files still read the template equation files in the `SolidWorks Parts & Assemblies` folder---and not the equation files within their `Instance Saves` sub-folder. The SolidWorks assemblies must be opened, and the locations of the equation files must be changed in the *Equations Interface*.
+The way SolidWorks behaves, assemblies link to external equation files by remembering their file location. Once generated, the instance assembly files still read the template equation files in the `SolidWorks Parts & Assemblies` folder and not the equation files within their `Instance Saves` sub-folder. The SolidWorks assemblies must be opened, and the locations of the equation files must be changed in the *Equations Interface*.
