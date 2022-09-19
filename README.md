@@ -38,8 +38,10 @@ The *Optional Custom Instance Prefix* corresponds to a custom prefix, in front o
 
 **Fig. 3 -- The interface after initializing.**
 ![interface1](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/interface1.jpg?raw=true)
+
 **Fig. 4 -- An instance is successfully generated.**
 ![interface4.jpg](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/interface4.jpg?raw=true)
+
 **Fig. 5 -- A diagram noting the spatial representation of six variables.**
 ![inputvisual.png](https://github.com/lancefeig/velcro-self-assembling-container/blob/main/img/inputvisual.png?raw=true) 
 
